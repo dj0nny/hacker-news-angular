@@ -1,27 +1,83 @@
-# HackerNewsAngular
+# hacker-news-angular
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/dj0nny/hacker-news-angular#readme)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
+> Hacker news clone built with Angular
 
-## Development server
+## 🚀 Getting started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2. It's recommended to install the angular-cli globally using:
 
-## Code scaffolding
+```bash
+npm i -g @angular/cli
+# OR
+yarn global add @angular/cli
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Download
 
-## Build
+Clone the repository using **Git**:
+```bash
+git clone https://github.com/dj0nny/hacker-news-angular
+```
+Or download [here](https://github.com/dj0nny/hacker-news-angular/archive/develop.zip).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Install
 
-## Running unit tests
+For installing the dependencies run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+```sh
+npm install
+# OR
+yarn install
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Usage
 
-## Further help
+For running the Angular development server:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```sh
+# if you have the Angular CLI
+ng serve
+# else 
+npm run start
+# OR
+yarn start
+```
+
+## Todo
+
+- [x] Generate the Angular app using the Angular CLI
+- [ ] Clean up the folder, set up the store
+- [ ] Fetch the **news** from the API and create the components
+- [ ] Add pagination
+- [ ] Fetch the **news comments** from the API and create the components
+- [ ] Create the routes for the pages
+- [ ] Fetching from API and creating components for:
+  - [ ] newest
+  - [ ] ask
+  - [ ] show
+  - [ ] jobs
+- [ ] Deploy on [Netlify](https://netlify.com)
+
+## Author
+
+👤 **Francesco Giambruno**
+
+* Twitter: [@Dj0nny96](https://twitter.com/Dj0nny96)
+* Github: [@dj0nny](https://github.com/dj0nny)
+
+## Built with :heart: using
+* [Angular](https://angular.io/) - _One framework.
+Mobile & desktop._
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check [issues page](https://github.com/dj0nny/hacker-news-angular/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
