@@ -26,8 +26,8 @@ Or download [here](https://github.com/dj0nny/hacker-news-angular/archive/develop
 
 For installing the dependencies run:
 
-
 ```sh
+cd hacker-news-angular
 npm install
 # OR
 yarn install
