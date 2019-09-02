@@ -49,7 +49,7 @@ yarn start
 ## Todo
 
 - [x] Generate the Angular app using the Angular CLI
-- [ ] Clean up the folder, set up the store
+- [x] Clean up the folder
 - [ ] Fetch the **news** from the API and create the components
 - [ ] Add pagination
 - [ ] Fetch the **news comments** from the API and create the components

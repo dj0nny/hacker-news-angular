@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Verdana, Geneva, sans-serif !important;
+  font-size: 10pt;
+  color: #828282;
+}
