@@ -1,1 +1,9 @@
-<p>news works!</p>
+<div class="news-list">
+  <div class="news-item" *ngFor="let newsItem of news">
+    <a [href]="newsItem.title" target="_blank" class="title">{{ newsItem.title }}</a>
+    <span class="domain">({{ newsItem.domain }})</span>
+    <div class="subtext">
+      {{ newsItem.points }} points by {{ newsItem.user }} {{ newsItem.time_ago }} | <!--<router-link class="comment-link" :to="{name: 'news-detail', params: { id: item.id }}">{{ item.comments_count }} comments</router-link>-->
+    </div>
+  </div>
+</div>
