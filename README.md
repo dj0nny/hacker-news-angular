@@ -50,7 +50,7 @@ yarn start
 
 - [x] Generate the Angular app using the Angular CLI
 - [x] Clean up the folder
-- [ ] Fetch the **news** from the API and create the components
+- [x] Fetch the **news** from the API and create the components
 - [ ] Add pagination
 - [ ] Fetch the **news comments** from the API and create the components
 - [ ] Create the routes for the pages
