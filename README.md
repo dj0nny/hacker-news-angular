@@ -1,4 +1,8 @@
 # hacker-news-angular
+
+[![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://badge.fury.io/js/%40angular%2Fcore)
+[![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
+![GitHub top language](https://img.shields.io/github/languages/top/dj0nny/hacker-news-angular)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/dj0nny/hacker-news-angular#readme)
 
