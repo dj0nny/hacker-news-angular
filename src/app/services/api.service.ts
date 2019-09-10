@@ -8,7 +8,7 @@ import { News } from '../models';
   providedIn: 'root'
 })
 export class ApiService {
-  BASE_URL: string = 'https://api.hackernews.io';
+  BASE_URL = 'https://api.hackernews.io';
 
   constructor(private http: HttpClient) { }
 
