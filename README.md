@@ -1,5 +1,6 @@
 # hacker-news-angular
 
+[![Build Status](https://travis-ci.org/dj0nny/hacker-news-angular.svg?branch=develop)](https://travis-ci.org/dj0nny/hacker-news-angular)
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://badge.fury.io/js/%40angular%2Fcore)
 [![npm version](https://badge.fury.io/js/typescript.svg)](https://badge.fury.io/js/typescript)
 ![GitHub top language](https://img.shields.io/github/languages/top/dj0nny/hacker-news-angular)
