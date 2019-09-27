@@ -1,1 +1,9 @@
-<p>newest works!</p>
+<div class="news-list">
+  <div class="news-item" *ngFor="let newestItem of newest">
+    <a [href]="newestItem.title" target="_blank" class="title">{{ newestItem.title }}</a>
+    <span class="domain">({{ newestItem.domain }})</span>
+    <div class="subtext">
+      {{ newestItem.points }} points by {{ newestItem.user }} {{ newestItem.time_ago }} | <!--<router-link class="comment-link" :to="{name: 'news-detail', params: { id: item.id }}">{{ item.comments_count }} comments</router-link>-->
+    </div>
+  </div>
+</div>

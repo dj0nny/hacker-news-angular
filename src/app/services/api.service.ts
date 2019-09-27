@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 
-import { News } from '../models';
+import { News, Newest} from '../models';
 
 @Injectable({
   providedIn: 'root'
@@ -14,5 +14,9 @@ export class ApiService {
 
   getNews(): Observable<News[]> {
     return this.http.get<News[]>(this.BASE_URL + '/news');
+  }
+
+  getNewest(): Observable<Newest[]> {
+    return this.http.get<Newest[]>(this.BASE_URL + '/newest');
   }
 }
